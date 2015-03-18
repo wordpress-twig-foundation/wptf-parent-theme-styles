@@ -15,5 +15,9 @@
   "license": "GPL2",
   "ignore": [
     "bower_components"
-  ]
+  ],
+  "dependencies": {
+    "foundation":   "5.*",
+    "font-awesome": "4.*"
+  }
 }
