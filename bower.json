@@ -1,6 +1,6 @@
 {
   "name": "wptf-parent-theme-styles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/wordpress-twig-foundation/parent-theme-styles",
   "authors": [
     "Andy Weir <andy@ocean-internet.co.uk>"
@@ -15,5 +15,9 @@
   "license": "GPL2",
   "ignore": [
     "bower_components"
-  ]
+  ],
+  "dependencies": {
+    "foundation":   "5.*",
+    "font-awesome": "4.*"
+  }
 }
