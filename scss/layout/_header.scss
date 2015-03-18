@@ -1,0 +1,47 @@
+body > header {
+  @extend .contain-to-grid;
+
+  nav {
+    @extend .top-bar;
+    @extend .row;
+
+    .brand {
+
+      @extend .title-area;
+      @extend .clearfix;
+
+      .toggle-topbar {
+        @extend .menu-icon;
+      }
+
+      .name {
+
+        div {
+
+          @extend h1;
+        }
+
+
+        a {
+
+
+          &.title {
+            @extend .hidden-for-medium-up;
+          }
+          &.description {
+            @extend .show-for-medium-up;
+          }
+        }
+      }
+    }
+
+
+    section {
+      @extend .top-bar-section;
+      .main-menu {
+
+        @extend .right;
+      }
+    }
+  }
+}
