@@ -6,7 +6,7 @@
     "Andy Weir <andy@ocean-internet.co.uk>"
   ],
   "description": "Responsive styles for wptf-parent-theme",
-  "main": "scss/wptf.css",
+  "main": "scss/_wptf.scss",
   "keywords": [
     "wordpress",
     "foundation",
